@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiflux"
+version = "0.1.0"
+description = "Python client for Tiflux API"
+authors = [
+    { name="Lucas Soares", email="lucassoaresolv@outlook.com" }
+]
+requires-python = ">=3.7"
+dependencies = [
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/lucassoaresol/tiflux-python"
